@@ -1,20 +1,21 @@
 <p>{{ titulo }}</p>
 
-<mat-form-field appearance="fill">
-  <mat-label>Nome</mat-label>
-  <input matInput [(ngModel)]="usuario.nome" placeholder="digite o nome" />
-</mat-form-field>
+<mat-card class="mat-card-simples">
+  <mat-form-field appearance="fill">
+    <mat-label>Nome</mat-label>
+    <input matInput [(ngModel)]="usuario.nome" placeholder="digite o nome" />
+  </mat-form-field>
 
-<mat-form-field appearance="fill">
-  <mat-label>CPF</mat-label>
-  <input matInput [(ngModel)]="usuario.cpf" placeholder="digite o cpf" />
-</mat-form-field>
+  <mat-form-field appearance="fill">
+    <mat-label>CPF</mat-label>
+    <input matInput [(ngModel)]="usuario.cpf" placeholder="digite o cpf" />
+  </mat-form-field>
 
-<mat-form-field appearance="fill">
-  <mat-label>Idade</mat-label>
-  <input matInput [(ngModel)]="usuario.idade" placeholder="digite a idade" />
-</mat-form-field>
-
+  <mat-form-field appearance="fill">
+    <mat-label>Idade</mat-label>
+    <input matInput [(ngModel)]="usuario.idade" placeholder="digite a idade" />
+  </mat-form-field>
+</mat-card>
 <button
   mat-raised-button
   mat-icon-button
